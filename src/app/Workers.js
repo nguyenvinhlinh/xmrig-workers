@@ -19,7 +19,7 @@ class Workers {
 
 
   static get(url, token) {
-    return Net.get(url + '/1/summary', token)
+    return Net.get(url + '/2/summary', token)
       .then(response => {
         if (response.status === 200) {
           return response.json();

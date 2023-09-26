@@ -18,7 +18,7 @@ export default class Development extends React.PureComponent {
 
     this.state = {
       method:   'GET',
-      request:  '/1/summary',
+      request:  '/2/summary',
       body:     '',
       text:     '',
       error:    '',

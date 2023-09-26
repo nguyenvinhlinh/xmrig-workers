@@ -72,7 +72,7 @@ export default class Worker {
 
 
   getSummary() {
-    return Net.get(this.url + '/1/summary', this.token)
+    return Net.get(this.url + '/2/summary', this.token)
       .then(response => {
         if (response.status === 200) {
           return response.json()
